@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1719406344 source:c:\users\user\documents\facultad\gran_cerdo\main.cpp
+	<iostream>
+	<cstdlib>
+	"FuncionMenu.h"
+	"FuncionJugar.h"
+
+1719352240 c:\users\user\documents\facultad\gran_cerdo\funcionmenu.h
+
+1719410701 source:c:\users\user\documents\facultad\gran_cerdo\funcionmenu.cpp
+	<iostream>
+	<locale>
+	<cstdlib>
+	<limits>
+	"FuncionMenu.h"
+
+1719410869 source:c:\users\user\documents\facultad\gran_cerdo\funcionjugar.cpp
+	<iostream>
+	<locale>
+	<cstdlib>
+	<ctime>
+	"FuncionJugar.h"
+	"FuncionDado.h"
+
+1719405728 c:\users\user\documents\facultad\gran_cerdo\funcionjugar.h
+
+1719405521 source:c:\users\user\documents\facultad\gran_cerdo\funciondado.cpp
+	<iostream>
+	<locale>
+	<cstdlib>
+	"FuncionDado.h"
+
+1719402210 c:\users\user\documents\facultad\gran_cerdo\funciondado.h
+
