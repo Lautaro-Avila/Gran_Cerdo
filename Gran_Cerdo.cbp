@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="FuncionDado.cpp" />
+		<Unit filename="FuncionDado.h" />
+		<Unit filename="FuncionJugar.cpp" />
+		<Unit filename="FuncionJugar.h" />
+		<Unit filename="FuncionMenu.cpp" />
+		<Unit filename="FuncionMenu.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

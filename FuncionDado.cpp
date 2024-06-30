@@ -5,6 +5,7 @@
 using namespace std;
 
 void CaraDado(int valor){
+
 switch (valor) {
         case 1:
             cout << "+-----+\n";
@@ -51,16 +52,19 @@ switch (valor) {
     }
 }
 
-bool ConsultaLanzarDados(string nombre){
+void SiguienteTurno(string nombre)
+{
+cout << "                      Turno de " << nombre << " presiona una tecla para continuar" << endl;
+system("pause>null");
+}
 
-char respuesta;
-cout << nombre << "¿Deseas lanzar los dados? (S/N): ";
-cin >> respuesta;
- if (respuesta == 's' || respuesta == 'S'){
-  return true;
- }else if (respuesta == 'n' || respuesta == 'N') {
-   cout << "toque cualquier tecla para volver al menu principal"  << endl;
-  return false;
- }
+void TirarDados ( int vecDados[] )
+{
+   for (int i=0; i<3; i++)
+    {
+        int azar=1+rand()%6;
+
+        vecDados[i]= azar;
+    }
 }
 

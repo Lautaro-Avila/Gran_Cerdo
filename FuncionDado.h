@@ -1,6 +1,9 @@
 #pragma once
+using namespace std;
 
 void CaraDado(int valor);
 
-bool ConsultaLanzarDados(std::string nombre);
+void SiguienteTurno(string nombre);
+
+void TirarDados (int vecDado []);
 
